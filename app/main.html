@@ -29,7 +29,7 @@
     <p>
       Share this URL:
     </p>
-    <a ng-href="{{ 'https://api-baby-maker.firebaseapp.com/#/share/' + Main.momIndex + '/' + Main.dadIndex}}" target="_blank">{{ 'https://api-baby-maker.firebaseapp.com/#/share/' + Main.momIndex + '/' + Main.dadIndex}}</a>
+    <a ng-href="{{Main.shareURL}}" target="_blank">{{Main.shareURL}}</a>
   </div>
   <button ng-click="Main.share = !Main.share" type="button" class="btn btn-primary">
     Share
