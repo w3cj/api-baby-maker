@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="apiBabyMaker">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/slate/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+      * {
+        font-size: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>API Baby Maker</h1>
+      </div>
+      <div ng-controller="MainController as Main" class="text-center">
+        <button ng-click="Main.makeABaby()" type="button" class="btn btn-default">
+          Make A Baby
+        </button>
+        <br>
+        <button ng-click="Main.previous()" type="button" class="btn btn-info">
+          Previous
+        </button>
+        <button ng-click="Main.next()" type="button" class="btn btn-warning">
+          Next
+        </button>
+        <div ng-show="Main.showResult">
+          <p>
+            You should use
+          </p>
+          <h3><a ng-href="{{Main.momApi.url}}" target="_blank">{{Main.momApi.name}}</a></h3>
+          <p>
+            and
+          </p>
+          <h3><a ng-href="{{Main.dadApi.url}}" target="_blank">{{Main.dadApi.name}}</a></h3>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js" charset="utf-8"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+    <script src="app/controllers.js" charset="utf-8"></script>
+  </body>
+</html>

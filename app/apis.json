@@ -1,0 +1,316 @@
+[{
+    "name": "Petfinder",
+    "url": "https://www.petfinder.com/developers/api-docs/"
+}, {
+    "name": "RescueGroups",
+    "url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home"
+}, {
+    "name": "Hummingbird",
+    "url": "https://hummingbird.me/"
+}, {
+    "name": "AniList",
+    "url": "http://anilist-api.readthedocs.org/en/latest/#"
+}, {
+    "name": "Church Calendar API",
+    "url": "http://calapi.inadiutorium.cz/"
+}, {
+    "name": "Non-working days API",
+    "url": "https://github.com/gadael/icsdb"
+}, {
+    "name": "Date and Time",
+    "url": "http://www.timeanddate.com/services/api/"
+}, {
+    "name": "RandomUser",
+    "url": "https://randomuser.me"
+}, {
+    "name": "UI Faces",
+    "url": "http://uifaces.com/api"
+}, {
+    "name": "UI Names",
+    "url": "https://github.com/thm/uinames"
+}, {
+    "name": "Adorable Avatars",
+    "url": "http://avatars.adorable.io"
+}, {
+    "name": "Github - User Data",
+    "url": "https://api.github.com/users/hackeryou"
+}, {
+    "name": "Gitter",
+    "url": "https://developer.gitter.im/docs/"
+}, {
+    "name": "JSONPlaceholder",
+    "url": "http://jsonplaceholder.typicode.com/"
+}, {
+    "name": "RoboHash",
+    "url": "https://robohash.org/"
+}, {
+    "name": "API Only",
+    "url": "http://apionly.com/"
+}, {
+    "name": "Lorem Text",
+    "url": "https://market.mashape.com/montanaflynn/lorem-text-generator"
+}, {
+    "name": "Hipster Ipsum",
+    "url": "http://hipsterjesus.com/"
+}, {
+    "name": "Loripsum",
+    "url": "http://loripsum.net/"
+}, {
+    "name": "ReqRes",
+    "url": "http://reqres.in/"
+}, {
+    "name": "BreweryDB",
+    "url": "http://www.brewerydb.com/developers"
+}, {
+    "name": "LCBO API",
+    "url": "https://lcboapi.com/"
+}, {
+    "name": "Abbreviation API",
+    "url": "https://market.mashape.com/daxeel/abbreviations"
+}, {
+    "name": "Callook.info API",
+    "url": "https://callook.info"
+}, {
+    "name": "Celebinfo API",
+    "url": "https://market.mashape.com/daxeel/celebinfo/"
+}, {
+    "name": "Open Government",
+    "url": "https://www.data.gov/"
+}, {
+    "name": "Yelp",
+    "url": "https://www.yelp.com/developers"
+}, {
+    "name": "Quandl API",
+    "url": "https://www.quandl.com/"
+}, {
+    "name": "Currencylayer",
+    "url": "https://currencylayer.com/documentation"
+}, {
+    "name": "Fixer.io",
+    "url": "http://fixer.io"
+}, {
+    "name": "Marvel",
+    "url": "http://developer.marvel.com"
+}, {
+    "name": "SWAPI",
+    "url": "https://swapi.co"
+}, {
+    "name": "Pokéapi",
+    "url": "http://pokeapi.co"
+}, {
+    "name": "Giant Bomb",
+    "url": "http://www.giantbomb.com/api/documentation"
+}, {
+    "name": "Comic Vine",
+    "url": "http://comicvine.gamespot.com/api/documentation"
+}, {
+    "name": "Steam",
+    "url": "https://developer.valvesoftware.com/wiki/Steam_Web_API"
+}, {
+    "name": "OpenCage",
+    "url": "https://geocoder.opencagedata.com"
+}, {
+    "name": "IP 2 Country",
+    "url": "https://ip2country.info"
+}, {
+    "name": "Noun Project",
+    "url": "http://api.thenounproject.com/index.html"
+}, {
+    "name": "Unsplash",
+    "url": "https://unsplash.com/developers"
+}, {
+    "name": "Giphy",
+    "url": "https://github.com/Giphy/GiphyAPI"
+}, {
+    "name": "TVMaze",
+    "url": "http://www.tvmaze.com/api"
+}, {
+    "name": "OMDB",
+    "url": "http://omdbapi.com"
+}, {
+    "name": "MovieDB",
+    "url": "https://www.themoviedb.org/documentation/api"
+}, {
+    "name": "Netflix Roulette",
+    "url": "http://netflixroulette.net/api/"
+}, {
+    "name": "Good Reads",
+    "url": "https://www.goodreads.com/api"
+}, {
+    "name": "Dribbble",
+    "url": "http://developer.dribbble.com/v1/"
+}, {
+    "name": "Ron Swanson Quotes",
+    "url": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api"
+}, {
+    "name": "Rijksmuseum",
+    "url": "https://www.rijksmuseum.nl/en/api"
+}, {
+    "name": "iTunes Search",
+    "url": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/"
+}, {
+    "name": "Twitch",
+    "url": "https://github.com/justintv/Twitch-API"
+}, {
+    "name": "Wordnik",
+    "url": "http://developer.wordnik.com"
+}, {
+    "name": "Imgur",
+    "url": "https://api.imgur.com/#overview"
+}, {
+    "name": "Chuck Norris Database",
+    "url": "http://www.icndb.com/api"
+}, {
+    "name": "Medium",
+    "url": "https://github.com/Medium/medium-api-docs"
+}, {
+    "name": "Flickr",
+    "url": "https://www.flickr.com/services/api/"
+}, {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/dev/api"
+}, {
+    "name": "Discogs",
+    "url": "https://www.discogs.com/developers/"
+}, {
+    "name": "EchoNest",
+    "url": "http://developer.echonest.com/docs/v4"
+}, {
+    "name": "Jamendo",
+    "url": "https://developer.jamendo.com/v3.0"
+}, {
+    "name": "LastFm",
+    "url": "http://www.last.fm/api"
+}, {
+    "name": "Mixcloud",
+    "url": "https://www.mixcloud.com/developers/"
+}, {
+    "name": "MusicBrainz",
+    "url": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2"
+}, {
+    "name": "Soundcloud",
+    "url": "https://developers.soundcloud.com/"
+}, {
+    "name": "Spotify",
+    "url": "https://developer.spotify.com/web-api/migration-guide/"
+}, {
+    "name": "Musixmatch",
+    "url": "https://developer.musixmatch.com/"
+}, {
+    "name": "Drupal.org",
+    "url": "https://www.drupal.org/drupalorg/api"
+}, {
+    "name": "Libraries.io",
+    "url": "https://libraries.io/api"
+}, {
+    "name": "Minor Planet Center",
+    "url": "http://www.asterank.com/mpc"
+}, {
+    "name": "UK Police",
+    "url": "https://data.police.uk/docs/"
+}, {
+    "name": "TED Talks",
+    "url": "http://developer.ted.com/API_Docs"
+}, {
+    "name": "NASA",
+    "url": "https://api.nasa.gov"
+}, {
+    "name": "Wunderground",
+    "url": "http://www.wunderground.com/weather/api/"
+}, {
+    "name": "OpenWeatherMap",
+    "url": "http://openweathermap.org/api"
+}, {
+    "name": "Yahoo! Weather",
+    "url": "https://developer.yahoo.com/weather/"
+}, {
+    "name": "World Bank",
+    "url": "http://data.worldbank.org/developers"
+}, {
+    "name": "Open Notify",
+    "url": "http://open-notify.org/Open-Notify-API/"
+}, {
+    "name": "Fedger.io",
+    "url": "https://dev.fedger.io/docs/"
+}, {
+    "name": "inspirehep.net",
+    "url": "https://inspirehep.net/info/hep/api?ln=en"
+}, {
+    "name": "Full Contact",
+    "url": "https://www.fullcontact.com/developer/docs/"
+}, {
+    "name": "LinkedIn REST-API",
+    "url": "https://developer.linkedin.com/docs/rest-api"
+}, {
+    "name": "Facebook API",
+    "url": "https://developers.facebook.com/"
+}, {
+    "name": "Twitter API",
+    "url": "https://dev.twitter.com/rest/public"
+}, {
+    "name": "Telegram API",
+    "url": "https://core.telegram.org/api#getting-started"
+}, {
+    "name": "Fuck Off as a Service",
+    "url": "https://www.foaas.com"
+}, {
+    "name": "Football-Data.org",
+    "url": "http://api.football-data.org"
+}, {
+    "name": "FitBit",
+    "url": "https://dev.fitbit.com"
+}, {
+    "name": "Stattleship",
+    "url": "https://www.stattleship.com/#"
+}, {
+    "name": "JCDecaux Bike API",
+    "url": "https://developer.jcdecaux.com/"
+}, {
+    "name": "City Bikes API",
+    "url": "http://api.citybik.es/v2/"
+}, {
+    "name": "Transport for London",
+    "url": "https://api.tfl.gov.uk"
+}, {
+    "name": "Transport for Belgium",
+    "url": "https://hello.irail.be/api/"
+}, {
+    "name": "Transport for Germany",
+    "url": "http://data.deutschebahn.com/apis/fahrplan/"
+}, {
+    "name": "Transport for Switzerland",
+    "url": "https://transport.opendata.ch/"
+}, {
+    "name": "Transport for Budapest",
+    "url": "http://docs.bkkfutar.apiary.io/"
+}, {
+    "name": "Transport for Norway",
+    "url": "http://reisapi.ruter.no/help"
+}, {
+    "name": "Transport for Toronto",
+    "url": "https://myttc.ca/developers"
+}, {
+    "name": "Transport for Vancouver, Canada",
+    "url": "https://developer.translink.ca/"
+}, {
+    "name": "Transport for Washington, US",
+    "url": "https://developer.wmata.com/"
+}, {
+    "name": "Transport for Paris, France",
+    "url": "http://data.ratp.fr/api/v1/console/datasets/1.0/search/"
+}, {
+    "name": "Transport for Sao Paulo, Brazil",
+    "url": "http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx"
+}, {
+    "name": "Transport for The Netherlands",
+    "url": "http://www.ns.nl/reisinformatie/ns-api"
+}, {
+    "name": "Schiphol Airport API",
+    "url": "https://flight-info.3scale.net/"
+}, {
+    "name": "Vehicle API",
+    "url": "http://developer.edmunds.com/api-documentation/overview/"
+}, {
+    "name": "YouTube",
+    "url": "https://developers.google.com/youtube/"
+}]
