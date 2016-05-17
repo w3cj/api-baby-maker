@@ -3,9 +3,19 @@
 
   angular
     .module('apiBabyMaker')
-    .controller('MainController', MainController);
+    .controller('MainController', MainController)
+    .controller('ShareController', ShareController);
 
-  function MainController($http) {
+  function ShareController($http, $routeParams) {
+    var vm = this;
+    $http.get('./app/apis.json').then(function(result){
+      vm.apis = result.data;
+      vm.momApi = vm.apis[$routeParams.mom];
+      vm.dadApi = vm.apis[$routeParams.dad];
+    })
+  }
+
+  function MainController($http, $location) {
     var vm = this;
 
     $http.get('./app/apis.json').then(function(result){
@@ -53,6 +63,12 @@
       } else {
         vm.makeABaby();
       }
+    }
+
+    vm.share = function() {
+      var momIndex = vm.apis.indexOf(vm.momApi);
+      var dadIndex = vm.apis.indexOf(vm.dadApi);
+      $location.path('/share/' + momIndex + '/' + dadIndex);
     }
   }
 })();
