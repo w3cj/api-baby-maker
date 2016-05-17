@@ -3,23 +3,19 @@
 
   angular
     .module('apiBabyMaker')
-    .controller('MainController', MainController)
-    .controller('ShareController', ShareController);
+    .controller('MainController', MainController);
 
-  function ShareController($http, $routeParams) {
-    var vm = this;
-    $http.get('./app/apis.json').then(function(result){
-      vm.apis = result.data;
-      vm.momApi = vm.apis[$routeParams.mom];
-      vm.dadApi = vm.apis[$routeParams.dad];
-    })
-  }
-
-  function MainController($http, $location) {
+  function MainController($http, $routeParams) {
     var vm = this;
 
     $http.get('./app/apis.json').then(function(result){
       vm.apis = result.data;
+
+      if($routeParams.mom && $routeParams.dad) {
+        vm.dadApi = vm.apis[$routeParams.dad];
+        vm.momApi = vm.apis[$routeParams.mom];
+      }
+
     })
 
     function getIndex() {
@@ -27,7 +23,7 @@
     }
 
     vm.babies = [];
-    vm.currentBaby = 0;
+    vm.currentBaby = -1;
 
     vm.next = function() {
       if(vm.currentBaby < vm.babies.length - 1) {
@@ -47,28 +43,24 @@
 
     vm.makeABaby = function() {
       vm.showResult = true;
-      var momApi = vm.apis[getIndex()];
-      var dadApi = vm.apis[getIndex()];
+      vm.momIndex = getIndex();
+      vm.dadIndex = getIndex();
+      vm.momApi = vm.apis[vm.momIndex];
+      vm.dadApi = vm.apis[vm.dadIndex];
 
-      if(momApi != dadApi) {
-        // GOOD
-        vm.momApi = momApi;
-        vm.dadApi = dadApi;
-        vm.babies.push({
-          mom: momApi,
-          dad: dadApi
-        });
+      if(vm.momApi != vm.dadApi) {
+        var baby = {
+          mom: vm.momApi,
+          dad: vm.dadApi
+        };
 
-        vm.currentBaby = vm.babies.length;
+        vm.babies.push(baby);
+
+        vm.currentBaby = vm.babies.length - 1;
+        console.log(vm.currentBaby)
       } else {
         vm.makeABaby();
       }
-    }
-
-    vm.share = function() {
-      var momIndex = vm.apis.indexOf(vm.momApi);
-      var dadIndex = vm.apis.indexOf(vm.dadApi);
-      $location.path('/share/' + momIndex + '/' + dadIndex);
     }
   }
 })();

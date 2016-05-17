@@ -1,23 +1,37 @@
-<button ng-click="Main.makeABaby()" type="button" class="btn btn-default">
+<button  ng-click="Main.makeABaby()" type="button" class="btn btn-info big-text">
   Make A Baby
 </button>
-<br>
-<div ng-show="Main.showResult">
+<br />
+<br />
+<button ng-click="Main.previous()" ng-show="Main.currentBaby > 0" type="button" class="btn btn-success">
+  Previous
+</button>
+<button ng-click="Main.next()" ng-show="Main.currentBaby < Main.babies.length - 1" type="button" class="btn btn-warning">
+  Next
+</button>
+<div ng-show="Main.showResult" class="bigger-text">
   <p>
-    You should use
+    Make a baby with
   </p>
-  <h3><a ng-href="{{Main.momApi.url}}" target="_blank">{{Main.momApi.name}}</a></h3>
+  <p class="big-text"><a ng-href="{{Main.momApi.url}}" target="_blank">{{Main.momApi.name}}</a></p>
   <p>
     and
   </p>
-  <h3><a ng-href="{{Main.dadApi.url}}" target="_blank">{{Main.dadApi.name}}</a></h3>
-  <button ng-click="Main.previous()" type="button" class="btn btn-info">
+  <p class="big-text"><a ng-href="{{Main.dadApi.url}}" target="_blank">{{Main.dadApi.name}}</a></p>
+  <button ng-click="Main.previous()" ng-show="Main.currentBaby > 0" type="button" class="btn btn-success">
     Previous
   </button>
-  <button ng-click="Main.next()" type="button" class="btn btn-warning">
+  <button ng-click="Main.next()" ng-show="Main.currentBaby < Main.babies.length - 1" type="button" class="btn btn-warning">
     Next
   </button>
-  <button ng-click="Main.share()" type="button" class="btn btn-primary">
+  <br>
+  <button ng-click="Main.share = !Main.share" type="button" class="btn btn-primary">
     Share
   </button>
+  <div ng-show="Main.share" style="font-size:0.5em;">
+    <p>
+      Share this URL:
+    </p>
+    <a ng-href="{{ 'https://api-baby-maker.firebaseapp.com/#/share/' + Main.momIndex + '/' + Main.dadIndex}}" target="_blank">{{ 'https://api-baby-maker.firebaseapp.com/#/share/' + Main.momIndex + '/' + Main.dadIndex}}</a>
+  </div>
 </div>
