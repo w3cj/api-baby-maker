@@ -8,7 +8,7 @@
   function MainController($http) {
     var vm = this;
 
-    $http.get('/app/apis.json').then(function(result){
+    $http.get('./app/apis.json').then(function(result){
       vm.apis = result.data;
     })
 
