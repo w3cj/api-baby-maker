@@ -12,8 +12,16 @@
       vm.apis = result.data;
 
       if($routeParams.mom && $routeParams.dad) {
-        vm.dadApi = vm.apis[$routeParams.dad];
         vm.momApi = vm.apis[$routeParams.mom];
+        vm.dadApi = vm.apis[$routeParams.dad];
+
+        vm.babies.push({
+          mom: vm.momApi,
+          dad: vm.dadApi
+        });
+
+        vm.currentBaby = vm.babies.length - 1;
+        vm.showResult = true;
       }
 
     })
