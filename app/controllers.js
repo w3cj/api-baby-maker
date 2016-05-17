@@ -50,7 +50,6 @@
     }
 
     vm.makeABaby = function() {
-      vm.showResult = true;
       vm.momIndex = getIndex();
       vm.dadIndex = getIndex();
 
@@ -62,6 +61,7 @@
     }
 
     vm.setMomAndDadAPI = function(momIndex, dadIndex) {
+      vm.showResult = true;
       vm.momIndex = momIndex;
       vm.dadIndex = dadIndex;
       vm.momApi = vm.apis[momIndex];
